@@ -10,7 +10,7 @@ pipeline {
 			agent {
 				docker {
 					image 'mave:3.6.9-jdk-8-alpine'
-					reusenode true
+					reuseNode true
 				}
 			}
 			steps {
